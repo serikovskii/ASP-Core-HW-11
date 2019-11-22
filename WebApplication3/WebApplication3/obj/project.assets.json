@@ -6699,12 +6699,11 @@
       ]
     },
     "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
-      "sha512": "cbz4YJMqRDR7oLeMRbdYv7mYzc++17lNhScCX0goO2XpGWdvAt60CGN+FHdePUEHCe/Jy9jUlvNAiNdM+7jsOw==",
+      "sha512": "aB6rQFopbmqX2DL4i3dsJnYWMfQtbw/JWWvv5DaiFga+yER8N8xQS3FHlCMmlKzRcJdLhYXhWdbawu5phy/Pug==",
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8148,19 +8147,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\мукушева\\.nuget\\packages\\": {}
+    "C:\\Users\\azat\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\мукушева\\source\\repos\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+      "projectUniqueName": "C:\\Users\\azat\\Documents\\GitHub\\ASP-Core-HW-11\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
       "projectName": "WebApplication3",
-      "projectPath": "C:\\Users\\мукушева\\source\\repos\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
-      "packagesPath": "C:\\Users\\мукушева\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\мукушева\\source\\repos\\WebApplication3\\WebApplication3\\obj\\",
+      "projectPath": "C:\\Users\\azat\\Documents\\GitHub\\ASP-Core-HW-11\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+      "packagesPath": "C:\\Users\\azat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\azat\\Documents\\GitHub\\ASP-Core-HW-11\\WebApplication3\\WebApplication3\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\мукушева\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\azat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
