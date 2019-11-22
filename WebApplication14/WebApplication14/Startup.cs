@@ -18,9 +18,10 @@ namespace WebApplication14
             Configuration = configuration;
         }
         public void ConfigureServices(IServiceCollection services)
-        {
+        { 
+            services.AddDbContext<UserContext>(db=>db.UseSqlServer("Server=A-205-1;Database=NewUserDb;Trusted_Connection=true"));
             services.AddControllers();
-            services.AddDbContext<UserContext>(db=>db.UseSqlServer("Server=(localDb);Database=NewUserDb;Trusted_Connection=true"));
+           
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

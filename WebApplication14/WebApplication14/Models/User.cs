@@ -4,7 +4,7 @@ namespace WebApplication14.Models
 {
     public class User
     {
-        public Guid Id { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
         public string Password { get; set; }
         public string Login { get; set; }
@@ -13,7 +13,7 @@ namespace WebApplication14.Models
 
         public User()
         {
-            Id = Guid.NewGuid();
+            Id = Guid.NewGuid().ToString();
             MyHeaderKey = Guid.NewGuid().ToString();
         }
     }
