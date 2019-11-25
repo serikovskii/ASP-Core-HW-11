@@ -16,8 +16,6 @@ namespace WebApplication14.Middleware
 
         public async Task InvokeAsync(HttpContext context)
         {
-            //UserContext userContext = context.RequestServices.GetService(typeof(UserContext)) as UserContext;
-
             UserContext userContext = context.RequestServices.GetService(typeof(UserContext)) as UserContext; 
             var myHeaderKey = context.Request.Headers["MyHeaderKey"].ToString();
             var path = context.Request.Path.ToString();

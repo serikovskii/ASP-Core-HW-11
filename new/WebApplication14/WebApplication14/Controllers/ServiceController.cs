@@ -17,8 +17,8 @@ namespace WebApplication14.Controllers
             this.userContext = userContext;
         }
 
-        [HttpGet("{id}")]
-        public async Task <ActionResult<User>> GetUser(string id)
+        [HttpGet()]
+        public async Task <ActionResult<User>> GetUser([FromQuery(Name = "id")] Guid id)
         {
             var oneUser = await userContext.Users.FindAsync(id);
             if(oneUser == null)

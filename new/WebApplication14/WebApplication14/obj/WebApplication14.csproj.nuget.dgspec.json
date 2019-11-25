@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\azat\\source\\repos\\WebApplication14\\WebApplication14\\WebApplication14.csproj": {}
+    "C:\\Users\\мукушева\\Documents\\GitHub\\ASP-Core-HW-11\\new\\WebApplication14\\WebApplication14\\WebApplication14.csproj": {}
   },
   "projects": {
-    "C:\\Users\\azat\\source\\repos\\WebApplication14\\WebApplication14\\WebApplication14.csproj": {
+    "C:\\Users\\мукушева\\Documents\\GitHub\\ASP-Core-HW-11\\new\\WebApplication14\\WebApplication14\\WebApplication14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\azat\\source\\repos\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
+        "projectUniqueName": "C:\\Users\\мукушева\\Documents\\GitHub\\ASP-Core-HW-11\\new\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
         "projectName": "WebApplication14",
-        "projectPath": "C:\\Users\\azat\\source\\repos\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
-        "packagesPath": "C:\\Users\\azat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\azat\\source\\repos\\WebApplication14\\WebApplication14\\obj\\",
+        "projectPath": "C:\\Users\\мукушева\\Documents\\GitHub\\ASP-Core-HW-11\\new\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
+        "packagesPath": "C:\\Users\\мукушева\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\мукушева\\Documents\\GitHub\\ASP-Core-HW-11\\new\\WebApplication14\\WebApplication14\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\azat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\мукушева\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

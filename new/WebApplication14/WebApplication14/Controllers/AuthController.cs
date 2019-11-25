@@ -20,7 +20,7 @@ namespace WebApplication14.Controllers
         {
             userContext.Users.Add(user);
             await userContext.SaveChangesAsync();
-            return Content(user.MyHeaderKey);
+            return Content(user.Id +  " - id " + user.MyHeaderKey + " - Key" );
         } 
     }
 }

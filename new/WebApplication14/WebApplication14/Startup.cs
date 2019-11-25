@@ -19,7 +19,7 @@ namespace WebApplication14
         }
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<UserContext>(db=>db.UseSqlServer("Server=DESKTOP-J6F6OL2;Database=NewUserDb;Trusted_Connection=true")); //
+            services.AddDbContext<UserContext>(db=>db.UseSqlServer("Server=A-205-1;Database=UserDbNew;Trusted_Connection=true;")); //
             services.AddControllers();
         }
 
